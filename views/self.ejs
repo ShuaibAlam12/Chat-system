@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Whatsapp</title>
+    <link rel="stylesheet" href="self.css">
+</head>
+
+<body>
+    <h1>Let's Talk Together</h1>
+    <div class="chatDesign">
+        <%for(let chat of chats){%>
+            <div class="singleChat">
+            <h6 class="from"><i>from: </i><b><%=chat.from%></b>
+            </h6>
+            <h4 class="chat">
+                <%=chat.msg%>
+            </h4>
+            <h6 class="to">To: <b><i> <%=chat.to%></i></b>
+            </h6>
+            <h6></h6>
+    </div>
+    <% }%>
+        </div>
+</body>
+
+</html>

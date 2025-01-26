@@ -1,0 +1,40 @@
+* {
+    margin-left: 10px;
+}
+
+.chat {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.msg {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+.add{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.add:hover{
+    box-shadow: rgba(235, 233, 233, 0.35) 0px 5px 15px;
+    background-color: yellow;
+    color: black;
+}
+.delete{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.delete:hover{
+    background-color: grey;
+}
+.btnSet{
+ display: flex;
+}
